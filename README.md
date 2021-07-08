@@ -8,7 +8,19 @@ If you make use of CySecAlert in any form, please cite the following Paper.
 
 ## Citing
 
-
+```
+@inproceedings{riebe2021,
+	title = {{CySecAlert}: ...},
+	isbn = {..},
+	url = {..},
+	doi = {..},
+	booktitle = {Proceedings of the 13th {International} {Conference}, ICICS},
+	publisher = {LNCS},
+	author = {Riebe, Thea, and Bayer, Markus, and Kuehn, Philipp and Kaufhold, Marc and Knauthe, Volker, and Guthe Stefan and Reuter, Christian},
+	year = {2021},
+	pages = {18},
+}
+```
 
 ## Contributors
 
