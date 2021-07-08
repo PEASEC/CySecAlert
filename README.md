@@ -2,7 +2,7 @@
 
 This repository will host the code used in the paper _CySecAlert: An Alert Generation System for Cyber Security Events Using Open Source Intelligence Data_ [1].
 
-1: Riebe, Wirth, Bayer, Kühn, Kaufhold, Knauthe, Guthe and Reuter (2021) CySecAlert: An Alert Generation System forCyber Security Events Using Open SourceIntelligence Data, Proceedings of 23rd International Conference, ICICS 2021,Chongqing, China. 
+1: Riebe, Wirth, Bayer, Kühn, Kaufhold, Knauthe, Guthe and Reuter (2021) CySecAlert: An Alert Generation System forCyber Security Events Using Open SourceIntelligence Data, Proceedings of 23rd International Conference, ICICS 2021, Chongqing, China. 
 
 If you make use of CySecAlert in any form, please cite the following Paper.
 
