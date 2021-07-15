@@ -1,0 +1,47 @@
+Setup:
+	- Setup using Maven
+	- Install Mongo-DB if not already done
+	- If you want to use it for crawling: set credentials in de.tudarmstadt.peasec.twitter.crawl.CrawlerUtil
+	- Set connection string and database name for mongo db in de.tudarmstadt.peasec.util.Mongohelper
+
+
+Crawler:
+    crawl tweets
+        main::crawl
+
+
+Labeling:
+    label a dataset
+        main::labelTweets
+
+    calculate cohens cappe
+
+
+Tokenization:
+    Tokenize a dataset
+    main::preprocessTweets
+
+
+
+Classifier:
+
+    Train CySecAlert Classifier
+
+    Use CySecAlert Classifier
+
+	Experiment with multiple Classifiers -> Fig.3: Performance Comparison of Naive Bayes, kNN with k = 50 and Random Forest classifier with Uncertainty Sampling Based on their respective model.
+
+	Experiment with multiple Classifiers-> Fig.2: Performance Comparison of RF Classifier trained with different Uncertainty Samplers: Random, RF, RF/Random(50/50), kNN
+
+
+
+Clustering:
+    Perform clustering with different parameters
+        main::cluster
+
+    Time clustering
+        main::cluster with timed flag
+
+
+Complete System:
+    Train on one set and use on the other
